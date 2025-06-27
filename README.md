@@ -1,5 +1,6 @@
 # Simple Notes App for TWS Community
 This is a simple notes app built with React and Django.
+Deployed using Docker on Ec2 with jenkins
 
 ## Requirements
 1. Python 3.9
