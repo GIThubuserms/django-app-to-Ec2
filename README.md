@@ -1,4 +1,4 @@
-# Simple Notes App for TWS Community
+# Simple Notes App for Deployment Purpose
 This is a simple notes app built with React and Django.
 Deployed using Docker on Ec2 with jenkins
 
