@@ -26,7 +26,7 @@ pipeline {
     stage("Run") {
       steps {
        script{
-           docker-run("django-app","8000","mycon1")
+           docker-run("django-app-1","8000","mycon1")
        }
       }
     }
