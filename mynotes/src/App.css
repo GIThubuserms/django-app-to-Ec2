@@ -162,7 +162,7 @@ a {
 .notes-list-item p span {
   color: var(--color-gray);
   display: inline-block;
-  margin-right: 8px;
+  margin-right: 9px;
 }
 
 .notes-list-item p {
