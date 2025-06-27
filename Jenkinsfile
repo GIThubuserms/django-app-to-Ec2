@@ -39,8 +39,8 @@ pipeline {
           usernameVariable: "DockerHubuser"
         )]) {
           sh "docker login -u $DockerHubuser -p $DockerHubpass"
-          sh "docker image tag mydjangoimage:latest murtaza0318/djangonotesimage:latest"
-          sh "docker push murtaza0318/djangonotesimage:latest"
+          sh "docker image tag djangoapp1:latest murtaza0318/djangoapp1:latest"
+          sh "docker push murtaza0318/djangoapp1:latest"
           echo "Deployed"
         }
       }
