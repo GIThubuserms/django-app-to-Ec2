@@ -19,7 +19,7 @@ pipeline {
     stage("build") {
       steps {
         script{
-            docker-build("django-app")
+            docker-build("django-app-1")
         }
       }
     }
