@@ -6,6 +6,7 @@ Deployed using Docker on Ec2 with jenkins
 1. Python 3.9
 2. Node.js
 3. React
+4. Vscode
 
 ## Installation
 1. Clone the repository
