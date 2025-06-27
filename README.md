@@ -7,12 +7,12 @@ This is a simple notes app built with React and Django.
 3. React
 
 ## Installation
-1. Clone the repositoryy
+1. Clone the repository
 ```
 git clone https://github.com/LondheShubham153/django-notes-app.git
 ```
 
-2. Build the app
+2. Build the app using docker
 ```
 docker build -t notes-app .
 ```
