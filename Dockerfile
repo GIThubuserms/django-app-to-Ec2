@@ -11,6 +11,7 @@ RUN apt-get update \
 
 # Install app dependencies
 # adding comment to check jenkins pipeline startup
+# adding comment2 to check jenkins pipeline startup
 RUN pip install mysqlclient
 RUN pip install --no-cache-dir -r requirements.txt
 
