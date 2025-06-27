@@ -19,14 +19,14 @@ pipeline {
     stage("build") {
       steps {
         script{
-            docker-build("django-app-1")
+            docker-build("djangoapp1")
         }
       }
     }
     stage("Run") {
       steps {
        script{
-           docker-run("django-app-1","8000","mycon1")
+           docker-run("djangoapp1","8000","mycon1")
        }
       }
     }
